@@ -1,18 +1,18 @@
 {
-  "name": "tekton/messages",
-  "type": "library",
-  "license": "MIT",
-  "description": "A simple component that adds a flash message handler, built with Tekton\\Session.",
-  "homepage": "https://gitlab.com/tekton/messages",
-  "autoload": {
-    "psr-4": {
-      "Tekton\\Messages\\": "src/"
+    "name": "tekton/messages",
+    "type": "library",
+    "license": "MIT",
+    "description": "A simple component that adds a flash message handler, built with Tekton\\Session.",
+    "homepage": "https://gitlab.com/tekton/messages",
+    "autoload": {
+        "psr-4": {
+            "Tekton\\Messages\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "tekton/support": "^1.0.0",
+        "tekton/session": "^1.0.0"
     }
-  },
-  "minimum-stability": "dev",
-  "require": {
-    "php": ">=7.0.0",
-    "tekton/support": "^1.0.0",
-    "tekton/session": "^1.0.0"
-  }
 }
